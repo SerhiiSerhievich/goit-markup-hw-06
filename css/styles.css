@@ -591,6 +591,7 @@ body {
     color: var(--main-color);
     cursor: pointer;
     padding-left: 28px;
+    transition: background-color var(--time-transform);
 }
 
 .button-icon {
