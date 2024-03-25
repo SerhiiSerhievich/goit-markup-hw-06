@@ -815,6 +815,10 @@ body {
     fill: transparent;
 }
 
+.modal-checkbox {
+    transition: background-color var(--time-transform), border var(--time-transform), fill var(--time-transform);
+}
+
 .modal-checkbox:checked + .label-agreement span {
     background-color: var(--hover-color);
     border: none;
