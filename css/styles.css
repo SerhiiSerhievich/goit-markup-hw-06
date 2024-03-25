@@ -645,6 +645,7 @@ body {
     display: block;
     margin-left: auto;
     margin-bottom: 2px;
+    transition: fill var(--time-transform);
 }
 .modal-close-icon {
     width: 100%;
