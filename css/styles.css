@@ -633,6 +633,8 @@ body {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background-color: var(--main-color);
     padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .backdrop.is-hidden .modal {
@@ -648,6 +650,7 @@ body {
     cursor: pointer;
     display: block;
     margin-left: auto;
+    transform: translateX(32px);
     margin-bottom: 2px;
     transition: fill var(--time-transform);
 }
@@ -674,11 +677,6 @@ body {
 /* ********************************************** MODAL WINDOW ****************************************************** */
 
 
-.modal-form {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
 .modal-title {
     font-weight: 700;
     font-size: 20px;
@@ -704,7 +702,7 @@ body {
     border-color: var(--hover-color);
 }
 
-.modal-input:focus+.modal-icon {
+.modal-input:focus + .modal-icon {
     fill: var(--hover-color);
 }
 
