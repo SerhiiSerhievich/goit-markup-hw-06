@@ -821,6 +821,13 @@ body {
     fill: var(--main-color);
 }
 
+.modal-checkbox:focus + .label-agreement span {
+    background-color: var(--hover-color);
+    border: none;
+    fill: var(--main-color);
+}
+
+
 .checkbox-field {
     margin-bottom: 30px;
 }
