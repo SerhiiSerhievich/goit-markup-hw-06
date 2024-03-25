@@ -462,6 +462,7 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
     font-style: normal;
+    white-space: nowrap;
 }
 
 .contacst-footer {
@@ -542,7 +543,10 @@ body {
 
 .footer-form-field {
     margin-left: 94px;
-    position: relative;
+}
+
+.form-field {
+    display: flex;
 }
 
 .footer-form-text {
@@ -580,7 +584,7 @@ body {
     background: var(--button-first-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     outline: transparent;
-    position: absolute;
+    position: relative;
     margin-left: 12px;
     border: transparent;
     font-weight: 700;
