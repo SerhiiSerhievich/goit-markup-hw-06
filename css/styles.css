@@ -813,10 +813,7 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-
-.modal-checkbox {
-    transition: background-color var(--time-transform), border var(--time-transform), fill var(--time-transform);
+    transition: background-color var(--time-transform), border var(--time-transform), fill var(--time-transform) border-color var(--time-transform);
 }
 
 .modal-checkbox:checked + .label-agreement span {
@@ -826,9 +823,7 @@ body {
 }
 
 .modal-checkbox:focus + .label-agreement span {
-    background-color: var(--hover-color);
-    border: none;
-    fill: var(--main-color);
+    border-color: var(--hover-color);
 }
 
 
